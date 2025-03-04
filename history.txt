@@ -1,0 +1,11 @@
+    1  du -h /
+    2  df -h /
+    3  du -ah /home | sort -rh | head -n 5
+    4  df -h / | awk 'NR==2 {print $4}'
+    6  git --version
+   12  sudo yum update -y
+   13  sudo yum install git -y
+   14  git clone https://github.com/ElhamAbedAlkareem/linux
+   15  cd linux
+   16  ls
+   17  history > history.txt
